@@ -1,0 +1,111 @@
+{
+  "LocaleLayout": {
+    "title": "DareVita",
+    "description": "DareVita is a global movement dedicated to transforming lives through innovative health and wellness solutions."
+  },
+  "Menu": {
+    "item1": "Inicio",
+    "item2": "Nosotros",
+    "item3": "Ciencia",
+    "item4": "Testimonios",
+    "item5": "Marketplace",
+    "item6": "Bonos"
+  },
+  "Buttons": {
+    "register": "Regístrate aquí",
+    "buy": "Comprar productos",
+    "lactigo": "Comprar Lactigo"
+  },
+  "Hero": {
+    "uptitle": "Bienvenidos a DareVita:",
+    "title": "Impulsando el futuro del bienestar",
+    "text": "La verdadera transformación empieza con el compromiso de mejorar cada día."
+  },
+  "About": {
+    "title": "Creemos en <color>tu potencial</color>",
+    "text": "DareVita es un movimiento global dedicado a transformar vidas a través de soluciones innovadoras de salud y bienestar. Con 20 años de ciencia y el respaldo de atletas profesionales, buscamos hacer el bienestar accesible y real. Nuestra visión es revolucionar la industria del bienestar con productos de impacto mundial, respaldados por un equipo de liderazgo de élite y alianzas estratégicas que amplían nuestro alcance y posicionan a DareVita como líder en el sector."
+  },
+  "Science": {
+    "title": "La ciencia detrás de tu éxito",
+    "text": "En DareVita, sabemos que cada cuerpo es único. Por eso, seleccionamos productos respaldados por estudios científicos que no solo mejoran el rendimiento físico, sino que también favorecen la salud general."
+  },
+  "Testimonials": {
+    "title": "Escucha a quienes ya han transformado su vida",
+    "slider": {
+      "item1": {
+        "name": "Jessica MacNeil",
+        "text": "Tuve que probar realmente este producto para completar el círculo de mi experiencia. ¡Y realmente no puedo creer lo que sentí! Mi entrenamiento matutino fue de fuerza, trabajando piernas específicamente. Usualmente siento una quemazón cuando llego a mis repeticiones máximas, y lo esperaba, ¡pero no lo sentí! Estaba sorprendida. Aumenté mis repeticiones al menos de 3 a 5 más con Lactigo. Y después de la ducha, me siento como si no me hubiera esforzado en lo más mínimo. ¡Estoy tan emocionada de los beneficios de este producto!"
+      },
+      "item2": {
+        "name": "Tracy Martin",
+        "text": "Estas son dos hermanas que se quedaron en la misma casa en Utah para el torneo de baloncesto en el que estuvimos. Amy vive en Phoenix y Sally en Leduc. Lactigo es impresionante ❤️❤️ Así que Amy y yo nos contagiamos de una enfermedad mientras estábamos en Utah. Es horrible, no he dejado de toser desde el miércoles. Amy tiene lo mismo y después de 2 días sin dormir y tosiendo sin parar, se aplicó Lactigo en el pecho y la garganta, ¡y desde entonces no ha tenido más tos! Realmente necesito que esta tos pare. He tenido ataques de tos tan malos que no puedo respirar."
+      },
+      "item3": {
+        "name": "Kat Barbour",
+        "text": "Tengo 45 años y en los últimos 5 años he tenido dos bebés. He estado entrenando fuerza seis días a la semana durante los últimos 14 o 15 meses. Este esfuerzo ha sido para liberarme del peso ganado en los últimos 10 años debido a los bebés, el trabajo, la maternidad y la vida en general. El ejercicio ha sido un desafío porque siempre que levanto pesas o hago ejercicio cardiovascular, mis tobillos me duelen mucho, lo que ha impedido que me mueva correctamente. Fui introducida a Lactigo hace unas 7 semanas y ha cambiado literalmente mi vida. Lo apliqué en el lado derecho de mi cuerpo y luego hice entrenamiento de HIIT. Lo sentí de inmediato, la diferencia entre ambos lados, y sentí que mi pierna derecha ya no estaba tan cansada."
+      },
+      "item4": {
+        "name": "Ann Kidston",
+        "text": "Soy una persona que ha destruido su cuerpo debido a un incidente, una vez a la vez, así que a los 60 tengo una lista larga de dolores y limitaciones. Comencé a usar Lactigo en mi rodilla y en mi pulgar derecho y estoy impresionada. No había podido 'confiar' en mi pulgar derecho para sostener una taza de café durante más de un año sin dificultad, y mis manos temblaban con ansiedad. Después de 3 días aplicando Lactigo una vez al día, ¡ahora estoy sosteniendo tazas de café y estrechando manos como si no fuera nada! ¡Estoy tan emocionada de haber recuperado estas cosas tan simples! Gracias, Lactigo."
+      },
+      "item5": {
+        "name": "Colleen Dac",
+        "text": "Acabo de comprar las botellas de 100 ml de Lactigo (sin mentol y con mentol) de Evolution Sports en Leduc. ¡No pueden mantenerlo en stock! ¡Los seniors también vienen a comprarlo!"
+      },
+      "item6": {
+        "name": "Kat Barbour",
+        "text": "Otro testimonio increíble de Lactigo (de mi parte). Juro que este gel nunca dejará de asombrarme. Hace dos días, me puse gel en un lado de mi cuerpo y luego realicé un entrenamiento de fuerza. Estaba muy emocionada con lo que estaba haciendo y no me preocupaba por mi forma, ¡pero sentí un dolor en el hombro derecho que nunca había experimentado! Después de aplicar Lactigo, he notado una gran diferencia. El dolor ha disminuido y mi hombro ya no está tan rígido. Es impresionante cómo este producto ha ayudado en mi recuperación."
+      }
+    },
+    "banner": "Imagina lo que podrías lograr al sentirte mejor cada día...<br></br>Con DareVita, ese bienestar está al alcance de todos."
+  },
+  "Marketplace": {
+    "banner": "Rompe barreras, eleva tu rendimiento",
+    "text1": "Lactigo es mucho más que un producto, es el motor que impulsa tu rendimiento físico al siguiente nivel. Desarrollado a partir de un descubrimiento innovador de una farmacéutica italiana, Lactigo combina ingredientes patentados que permiten a las personas superar sus límites físicos, ya sea en el gimnasio, en el campo de juego o en su día a día. Este producto revolucionario es solo el primer paso hacia una línea de soluciones científicas que DareVita ofrece con el compromiso de transformar vidas.",
+    "text2": "Lactigo llegará a atletas de todo el mundo a través de nuestras alianzas estratégicas con ligas deportivas profesionales y figuras de élite. La NHL, por ejemplo, ya ha incluido Lactigo en todos sus vestuarios, lo que valida su eficacia y reafirma su capacidad para ayudar a los atletas a mejorar su rendimiento de manera notable.",
+    "link": "Descubre Más Productos",
+    "bigText": "Es tu <color>Momento de brillar</color><br></br>Ya has visto lo que DareVita puede hacer por ti.",
+    "text3": "Regístrate para obtener acceso exclusivo a nuestra tienda y ser el primero en recibir ofertas especiales, consejos de rendimiento y mucho más."
+  },
+  "Bonuses": {
+    "bonus1": {
+      "name": "Impact Bonus",
+      "text": "Gana un <color>40%</color> de tus compras de afiliados durante el primer mes calendario."
+    },
+    "bonus2": {
+      "name": "Subscription Bonus",
+      "subtitle": "Gana hasta un 31% de las suscripciones: se aplica compresión dinámica.",
+      "text": "Requisito para este bono = ¡Debes tener un rango calificado para ganar este bono a partir del segundo mes calendario y en adelante!"
+    },
+    "bonus3": {
+      "name": "DareVita Bonus",
+      "subtitle": "Este es un bono único para los que califican de rango",
+      "text": "Requisito para este bono = Debes tener un rango calificado 6 o superior. Debes mantener tu rango durante 3 meses consecutivos. Luego, recibirás un pago durante los siguientes 10 meses.",
+      "foot": "Dividido en 10 pagos."
+    },
+    "bonus4": {
+      "name": "Matching Bonus",
+      "subtitle": "Gana hasta un 40% durante 4 generaciones",
+      "text": "Debes tener una suscripción<br></br>Debes tener un nuevo afiliado en el mes calendario"
+    },
+    "bonus5": {
+      "name": "Unity Bonus",
+      "subtitle": "Es un bono mensual",
+      "text": "Debes tener un Rango Calificado 8 o superior al 5% de las Ventas Brutas del mes, dividido en 5 fondos compartidos"
+    },
+    "level": "Nivel",
+    "rank": "Rango",
+    "bonus": "Bono",
+    "gen": "Gen",
+    "pool": "Pool",
+    "qualifiers": "para todos los Rangos {rank} calificados"
+  },
+  "Footer": {
+    "text": "Con <color>DareVita</color> supera lo que creías imposible",
+    "copyright": "Todos los derechos reservados."
+  },
+  "Policies": {
+    "privacy": "Política de privacidad",
+    "terms": "Terminos y condiciones"
+  }
+}

@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Controller, Autoplay } from "swiper/modules";
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 import BannerTestimonials from "../BannerTestimonials";
 

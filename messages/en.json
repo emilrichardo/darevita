@@ -1,0 +1,111 @@
+{
+  "LocaleLayout": {
+    "title": "DareVita",
+    "description": "DareVita is a global movement dedicated to transforming lives through innovative health and wellness solutions."
+  },
+  "Menu": {
+    "item1": "Home",
+    "item2": "About",
+    "item3": "Science",
+    "item4": "Testimonials",
+    "item5": "Marketplace",
+    "item6": "Bonus"
+  },
+  "Buttons": {
+    "register": "Register Here",
+    "buy": "Buy Products",
+    "lactigo": "Buy Lactigo"
+  },
+  "Hero": {
+    "uptitle": "Welcome to DareVita:",
+    "title": "Powering the future of wellness",
+    "text": "True transformation begins with the commitment to improve every day."
+  },
+  "About": {
+    "title": "We believe in <color>your potential</color>",
+    "text": "DareVita is a global movement dedicated to transforming lives through innovative health and wellness solutions. With 20 years of science and the backing of professional athletes, we seek to make wellness accessible and real. Our vision is to revolutionize the wellness industry with products that make a global impact, backed by an elite leadership team and strategic partnerships that expand our reach and position DareVita as an industry leader."
+  },
+  "Science": {
+    "title": "The science behind your success",
+    "text": "At DareVita, we understand that every body is unique. That's why we select products that are backed by scientific studies, proven not only to improve physical performance but also to enhance overall health."
+  },
+  "Testimonials": {
+    "title": "Hear from those who have already transformed their lives",
+    "slider": {
+      "item1": {
+        "name": "Jessica MacNeil",
+        "text": "I really had to test this product to complete the circle of my experience. And I really can't believe what I felt! My morning workout was strength training, specifically working on legs. I usually feel a burn when I get to my max reps, and I was expecting it, but I didn't! I was shocked. I increased my reps by at least 3-5 more with Lactigo.And after my shower, I feel like I didn't even push myself this morning! I'm so excited about the benefits of this product!"
+      },
+      "item2": {
+        "name": "Tracy Martin",
+        "text": "These are two sisters who stayed at the same house in Utah for the basketball tournament we were at. Amy lives in Phoenix, and Sally in Leduc. Lactigo is AMAZING ❤️❤️ So, Amy and I managed to catch a sickness while we were in Utah. It's awful, nonstop coughing since Wednesday for me. Amy has the same and after 2 days of no sleep and nonstop coughing, she applied Lactigo on her chest and throat, and hasn't had a coughing fit since!I really need this coughing to stop. Coughing fits so bad that I can't catch a breath."
+      },
+      "item3": {
+        "name": "Kat Barbour",
+        "text": "I'm 45 years old and have had two babies over the past five years. I've been strength training six days a week for the last 14 or 15 months. This effort has been to free myself from the weight gain over the last 10 years due to babies, work, motherhood, and life in general. Exercising has been a challenge because every time I lift heavy weights or go hard on my bike, I get severe pain in my ankles which has prevented me from being able to move as freely. I was introduced to Lactigo about 7 weeks ago, and it has literally changed my life. I applied it on my right side and then did HIIT training. I felt the difference immediately between both sides, and my right leg didn't feel as tired anymore."
+      },
+      "item4": {
+        "name": "Ann Kidston",
+        "text": "I'm someone who has pretty much destroyed my body one incident at a time, so at 60 I have a long list of aches and limitations. I started using Lactigo on my knee and my right thumb, and I am impressed. I hadn't been able to 'trust' my right thumb to support a cup of coffee for over a year without difficulty, and my hands would shake with anxiety. After 3 days of applying Lactigo once a day, I am now holding coffee cups and shaking hands like nobody's business! So thrilled to have even these simple things back. Thank you, Lactigo!"
+      },
+      "item5": {
+        "name": "Colleen Dac",
+        "text": "I just picked up the 100 ml bottles of plain and menthol Lactigo from Evolution Sports in Leduc. They can't keep it in stock! Seniors are coming in to purchase it too!"
+      },
+      "item6": {
+        "name": "Kat Barbour",
+        "text": "Another amazing Lactigo testimonial (from me). I swear, this gel will never stop amazing me. So 2 days ago, I put some gel on one side of my body and then did a strength training workout. I was really excited about what was going on in my life and wasn't paying attention to my form and lifting extremely heavy weights. I think I overdid it and pulled a muscle in my right shoulder. I didn't feel it during the exercise, but about an hour after, it became extremely painful. I knew I definitely pulled something. Since I applied the gel 2 nights ago, I have not been able to sleep on that side and it's been better each day. The pain has gotten less and less and right now, I have 90% mobility in my arm. This product is amazing!"
+      }
+    },
+    "banner": "Imagine what you could achieve by feeling better every day...<br></br>With DareVita, that well being is within everyone's reach."
+  },
+  "Marketplace": {
+    "banner": "Break through barriers, raise your performance",
+    "text1": "Lactigo is much more than a product, it is the engine that drives your physical performance to the next level. Developed from a breakthrough discovery by an Italian pharmaceutical company, Lactigo combines patented ingredients that enable people to push their physical limits, whether in the gym, on the playing field or in their day-to-day lives. This revolutionary product is just the first step towards a line of scientific solutions that DareVita offers with a commitment to transform lives.",
+    "text2": "Lactigo will reach athletes around the world through our strategic partnerships with professional sports leagues and elite figures. The NHL, for example, has already included Lactigo in all of its locker rooms, validating its efficacy and reaffirming its ability to help athletes dramatically improve their performance.",
+    "link": "Discover More Products",
+    "bigText": "It's your <color>time to shine</color><br></br>You've seen what DareVita can do for you.",
+    "text3": "Register to gain exclusive access to our store and be the first to receive special offers, performance tips, and much more."
+  },
+  "Bonuses": {
+    "bonus1": {
+      "name": "Impact Bonus",
+      "text": "Earning <color>40%</color> from your affiliate purchases during the first calendar month."
+    },
+    "bonus2": {
+      "name": "Subscription Bonus",
+      "subtitle": "Earning up to 31% from the suscriptions - Dynamic compression applies.",
+      "text": "Required for this bonus = You must be a qualified rank in order to earn this bonus from the 2nd calendar month and beyond!"
+    },
+    "bonus3": {
+      "name": "DareVita Bonus",
+      "subtitle": "This is a one-time bonus for rank qualifiers",
+      "text": "Required for this bonus = You must be a qualified rank 6 or superior. Must maintain your Rank for 3 consecutive months Then you will get a Payment for the next 10 months.",
+      "foot": "Divided in 10 payments"
+    },
+    "bonus4": {
+      "name": "Matching Bonus",
+      "subtitle": "Earn up to 40% for 4 generations",
+      "text": "Must have a subscription<br></br>Must have a new affiliate in calendar month"
+    },
+    "bonus5": {
+      "name": "Unity Bonus",
+      "subtitle": "It's a monthly bonus",
+      "text": "Must be Qualified Ranks 8 or superior 5% from the Gross Sales of the month, divided in 5 pools"
+    },
+    "level": "Level",
+    "rank": "Rank",
+    "bonus": "Bonus",
+    "gen": "Gen",
+    "pool": "Pool",
+    "qualifiers": "for all the Rank {rank} qualifiers"
+  },
+  "Footer": {
+    "text": "<color>DareVita</color> overcomes what you thought was impossible",
+    "copyright": "All rights reserved."
+  },
+  "Policies": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  }
+}

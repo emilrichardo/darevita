@@ -6,10 +6,7 @@ interface SmartContainerProps {
   children: ReactNode;
 }
 
-export default function SmartContainer({
-  align = "left",
-  children,
-}: SmartContainerProps) {
+export default function SmartContainer({ children }: SmartContainerProps) {
   const [screenWidth, setScreenWidth] = useState(0);
   const [blockContentWidth, setBlockContentWidth] = useState(0);
   const blockContentRef = useRef<HTMLDivElement | null>(null);
@@ -42,7 +39,6 @@ export default function SmartContainer({
   const margin = Math.max((screenWidth - blockContentWidth) / 2, 0);
 
   // Clases de alineación basadas en la propiedad 'align'
-  const alignClass = align === "right" ? "justify-end" : "justify-start";
 
   return (
     <>
