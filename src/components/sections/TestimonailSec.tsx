@@ -5,27 +5,24 @@ import { useLocale } from "next-intl";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Controller, Autoplay } from "swiper/modules";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
-import BannerTestimonials from "../BannerTestimonials";
-
 import Image from "next/image";
-
 import "swiper/css";
 import "swiper/css/autoplay";
-import SmartContainer from "../SmartContainer";
+import { Swiper as SwiperClass } from "swiper";
 
 const TestimonailSec = () => {
   const locale = useLocale();
   const t = useTranslations("Testimonials");
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<SwiperClass | null>(null);
 
   const handlePrev = useCallback(() => {
     if (!sliderRef.current) return;
-    sliderRef.current.swiper.slidePrev();
+    sliderRef.current.slidePrev();
   }, []);
 
   const handleNext = useCallback(() => {
     if (!sliderRef.current) return;
-    sliderRef.current.swiper.slideNext();
+    sliderRef.current.slideNext();
   }, []);
 
   return (
@@ -36,74 +33,59 @@ const TestimonailSec = () => {
             {locale === "en" ? "Testimonials" : "Testimonios"}{" "}
           </h3>
           <h2 className="font-title h3 lg:h1 mt-8">{t("title")}</h2>
-        </div>
-        <SmartContainer align="left">
-          <div className="pl-5 pr-1">
-            <div className="slider-testimonials">
-              <div className="flex flex-col lg:flex-row-reverse lg:justify-between gap-4 items-center lg:items-end mt-8 pr-5 mb-4 ">
-                <div className="flex   gap-4">
-                  <div
-                    className="prev-arrow  flex items-center justify-center w-10 h-10 text-xl bg-primary hover:bg-primary-100 pointer  text-white"
-                    onClick={handlePrev}
-                  >
-                    <FaCaretLeft />
-                  </div>
-
-                  <div
-                    className="next-arrow flex items-center justify-center w-10 h-10 text-xl bg-primary hover:bg-primary-100 pointer   text-white"
-                    onClick={handleNext}
-                  >
-                    <FaCaretRight />
-                  </div>
-                </div>
-                <div className="swiper-custom-pagination flex  justify-center gap-2 "></div>
-              </div>
-              <Swiper
-                ref={sliderRef}
-                slidesPerView={1}
-                spaceBetween={5}
-                loop={true}
-                autoplay={{ delay: 4000 }}
-                modules={[Pagination, Controller, Autoplay]}
-                pagination={{
-                  el: ".swiper-custom-pagination",
-                  clickable: true,
-                }}
-                navigation={true}
-                scrollbar={{ draggable: true }}
-                breakpoints={{
-                  640: {
-                    slidesPerView: 2,
-                  },
-                }}
-              >
-                <SwiperSlide>
-                  <Slide
-                    image="/testimonios04.png"
-                    title={t("slider.item1.name")}
-                    text={t("slider.item1.text")}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Slide
-                    image="/testimonios03.png"
-                    title={t("slider.item2.name")}
-                    text={t("slider.item2.text")}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Slide
-                    image="/testimonios05.png"
-                    title={t("slider.item3.name")}
-                    text={t("slider.item3.text")}
-                  />
-                </SwiperSlide>
-              </Swiper>
-            </div>
+          <Swiper
+            onSwiper={(swiper) => {
+              sliderRef.current = swiper;
+            }}
+            slidesPerView={1}
+            spaceBetween={5}
+            loop={true}
+            autoplay={{ delay: 4000 }}
+            modules={[Pagination, Controller, Autoplay]}
+            pagination={{
+              el: ".swiper-custom-pagination",
+              clickable: true,
+            }}
+            navigation={true}
+            scrollbar={{ draggable: true }}
+          >
+            <SwiperSlide>
+              <Slide
+                image="/testimonios04.png"
+                title={t("slider.item1.name")}
+                text={t("slider.item1.text")}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                image="/testimonios03.png"
+                title={t("slider.item2.name")}
+                text={t("slider.item2.text")}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                image="/testimonios05.png"
+                title={t("slider.item3.name")}
+                text={t("slider.item3.text")}
+              />
+            </SwiperSlide>
+          </Swiper>
+          <div
+            className="prev-arrow flex items-center justify-center w-10 h-10 text-xl bg-primary hover:bg-primary-100 pointer text-white"
+            onClick={handlePrev}
+          >
+            <FaCaretLeft />
           </div>
-        </SmartContainer>
+          <div
+            className="next-arrow flex items-center justify-center w-10 h-10 text-xl bg-primary hover:bg-primary-100 pointer text-white"
+            onClick={handleNext}
+          >
+            <FaCaretRight />
+          </div>
+          <div className="swiper-custom-pagination flex justify-center gap-2"></div>
+        </div>
       </div>
-      <BannerTestimonials />
     </>
   );
 };
